@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "ci-failure-analyzer"
+version = "0.1.0"
+description = "Explainable CI failure triage and flaky-test detection"
+requires-python = ">=3.9"
+[project.scripts]
+ci-analyze = "ci_analyzer.cli:main"
+[tool.setuptools.packages.find]
+include = ["ci_analyzer*"]

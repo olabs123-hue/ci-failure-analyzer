@@ -1,0 +1,18 @@
+[
+ {"log":"main.cpp:4: error: undeclared identifier 'foo'", "label":"compiler_error"},
+ {"log":"ld: undefined reference to `main'", "label":"compiler_error"},
+ {"log":"LLVM ERROR: cannot select instruction", "label":"compiler_error"},
+ {"log":"ModuleNotFoundError: No module named pytest", "label":"dependency_error"},
+ {"log":"Could not find a package configuration file for LLVM", "label":"dependency_error"},
+ {"log":"package protobuf not found", "label":"dependency_error"},
+ {"log":"connection refused by cache", "label":"infrastructure_error"},
+ {"log":"HTTP 503 from runner service", "label":"infrastructure_error"},
+ {"log":"no space left on device", "label":"infrastructure_error"},
+ {"log":"FAILED tests/test_compiler.py::test_codegen", "label":"test_failure"},
+ {"log":"AssertionError: expected 10", "label":"test_failure"},
+ {"log":"2 tests failed", "label":"test_failure"},
+ {"log":"job timed out after 10 minutes", "label":"timeout"},
+ {"log":"TimeoutError: subprocess expired", "label":"timeout"},
+ {"log":"test timed out", "label":"timeout"},
+ {"log":"unrecognized output with no known signature", "label":"unknown"}
+]
